@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #edf2f8;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  gap: 7px;
+}
+.profile {
+  display: flex;
+  color: white;
+}
+img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.profiletext {
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+  line-height: 1.5;
+}
+.cards {
+  height: 100%;
+  display: flex;
+  gap: 10px;
+}
+.card1 {
+  margin: 20px;
+  width: 75%;
+}
+
+.top,
+.bottom {
+  display: flex;
+
+  gap: 19px;
+
+  margin-bottom: 20px;
+}
+.toplarge,
+.bottomlarge {
+  width: 70%;
+  background-color: #733fc8;
+  height: 100%;
+  padding: 9px;
+  border-radius: 10px;
+}
+.toplarge h3,
+.bottomlarge h3 {
+  margin-top: 10px;
+  color: #eae3f6;
+  font-size: 22px;
+}
+.toplarge p,
+.bottomlarge p {
+  margin-top: 15px;
+  color: #d6cfe5;
+  font-size: 13px;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.topsmall,
+.bottomsmall {
+  width: 28%;
+  background-color: #49556b;
+  padding: 12px;
+  border-radius: 10px;
+}
+.topsmall h3,
+.bottomsmall h3 {
+  margin-top: 10px;
+  color: #ebeef6;
+  font-size: 22px;
+}
+.topsmall p,
+.bottomsmall p {
+  margin-top: 15px;
+  color: #d6cfe5;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.card2 {
+  width: 30%;
+  margin: 20px;
+}
+
+.side {
+  background-color: white;
+  padding: 9px;
+  /* height: 100%; */
+  margin-bottom: 20px;
+  padding-bottom: 19%;
+  border-radius: 10px;
+}
+.side h3 {
+  margin-top: 10px;
+  color: black;
+  font-size: 22px;
+}
+.side p {
+  margin-top: 15px;
+  color: black;
+  font-size: 15px;
+  height: 100%;
+  line-height: 1.5;
+}
