@@ -51,6 +51,7 @@ img {
   height: 100%;
   padding: 9px;
   border-radius: 10px;
+  box-shadow: 0px 2px 12px #49556b;
 }
 .toplarge h3,
 .bottomlarge h3 {
@@ -73,6 +74,7 @@ img {
   background-color: #49556b;
   padding: 12px;
   border-radius: 10px;
+  box-shadow: 0px 2px 12px #49556b;
 }
 .topsmall h3,
 .bottomsmall h3 {
@@ -95,10 +97,10 @@ img {
 .side {
   background-color: white;
   padding: 9px;
-  /* height: 100%; */
   margin-bottom: 20px;
   padding-bottom: 19%;
   border-radius: 10px;
+  box-shadow: 0px 2px 12px #49556b;
 }
 .side h3 {
   margin-top: 10px;
