@@ -5,13 +5,15 @@
 }
 body {
   background-color: #edf2f8;
+  /* border: 2px solid green; */
 }
 
-.container {
+/* .container {
   display: flex;
+  flex-direction: row;
   height: 100vh;
   gap: 7px;
-}
+} */
 .profile {
   display: flex;
   color: white;
@@ -29,6 +31,7 @@ img {
 .cards {
   height: 100%;
   display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 .card1 {
@@ -39,7 +42,7 @@ img {
 .top,
 .bottom {
   display: flex;
-
+  flex-direction: row;
   gap: 19px;
 
   margin-bottom: 20px;
@@ -90,7 +93,7 @@ img {
   line-height: 1.5;
 }
 .card2 {
-  width: 30%;
+  width: 26%;
   margin: 20px;
 }
 
@@ -98,7 +101,7 @@ img {
   background-color: white;
   padding: 9px;
   margin-bottom: 20px;
-  padding-bottom: 19%;
+  /* padding-bottom: 19%; */
   border-radius: 10px;
   box-shadow: 0px 2px 12px #49556b;
 }
@@ -113,4 +116,69 @@ img {
   font-size: 15px;
   height: 100%;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .cards {
+    flex-direction: column;
+    width: 90%;
+  }
+  .card1 {
+    width: 100%;
+    margin: 15px;
+  }
+  .top,
+  .bottom {
+    flex-direction: column;
+  }
+  .hey {
+    font-size: 14px !important;
+  }
+  .toplarge,
+  .bottomlarge {
+    padding: 20px;
+    width: 90%;
+  }
+  .para1 {
+    font-size: 9.2px !important;
+    font-weight: 100;
+  }
+  .para2 {
+    font-size: 9.2px !important;
+    font-weight: 120 !important;
+  }
+  .topsmall,
+  .bottomsmall {
+    padding: 20px;
+    width: 90%;
+  }
+  .topsmall h3,
+  .bottomsmall h3 {
+    font-size: 12px;
+  }
+  .topsmall h4,
+  .bottomsmall h4 {
+    font-size: 14px;
+  }
+  .topsmall p,
+  .bottomsmall p {
+    font-size: 9px;
+    font-weight: 140 !important;
+  }
+  .card2 {
+    width: 90%;
+  }
+  .side {
+    padding: 12px !important;
+  }
+  .card2 h3 {
+    font-size: 16px;
+  }
+  .card2 p {
+    font-size: 9.4px;
+    font-weight: 140;
+  }
 }
