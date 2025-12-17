@@ -122,9 +122,11 @@ img {
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
   .cards {
     flex-direction: column;
     width: 90%;
+     margin-left: 20px !important;
   }
   .card1 {
     width: 100%;
